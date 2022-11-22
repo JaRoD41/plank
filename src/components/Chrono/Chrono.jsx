@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Chrono({loops, time}) {
+export default function Chrono({ time, loops }) {
   return (
 		<div>
 			<p>

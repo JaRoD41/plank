@@ -6,11 +6,13 @@ import Error from './pages/Error'
 function App() {
 	return (
 		<div className="App">
-			<Routes>
-				<Route path="/" element={<QuizPage />} />
-				<Route path="/chrono" element={<ChronoPage />} />
-				<Route path="*" element={<Error />} />
-			</Routes>
+			<main>
+				<Routes>
+					<Route path="/" element={<QuizPage />} />
+					<Route path="/chrono" element={<ChronoPage />} />
+					<Route path="*" element={<Error />} />
+				</Routes>
+			</main>
 		</div>
 	)
 }
