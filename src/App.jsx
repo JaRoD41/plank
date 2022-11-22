@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom'
 import ChronoPage from './pages/ChronoPage'
 import QuizPage from './pages/QuizPage'
 import Error from './pages/Error'
-import './App.css'
 
 function App() {
 	return (

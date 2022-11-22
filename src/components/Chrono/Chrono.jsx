@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Chrono() {
+export default function Chrono({loops, time}) {
   return (
-    <div>
-      <h1>CHRONO</h1>
-    </div>
-  )
+		<div>
+			<p>
+				{loops} répétitions de {time} secondes
+			</p>
+		</div>
+	)
 }
